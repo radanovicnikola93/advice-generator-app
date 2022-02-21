@@ -112,3 +112,7 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+body {
+    background-color: var(--dark-grayish-blue);
+}
