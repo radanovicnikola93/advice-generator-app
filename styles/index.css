@@ -153,3 +153,10 @@ body {
     font-size: 1.75rem;
     text-align: center;
 }
+
+.advice .advice--container .advice--pattern-divider {
+}
+
+.advice .advice--container .advice--pattern-divider img {
+    color: var(--light-cyan);
+}
