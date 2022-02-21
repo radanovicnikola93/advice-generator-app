@@ -20,5 +20,10 @@ function getAdvices() {
     });
 }
 
+function animateBtn() {
+    diceButton.classList.toggle('spin-button');
+}
+
+diceButton.addEventListener('click', animateBtn); //  new quote on button click
 diceButton.addEventListener('click', getAdvices); //  new quote on button click
 window.onload = getAdvices; // new advice on page load
