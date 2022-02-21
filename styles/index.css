@@ -136,3 +136,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.advice .advice--container .advice--id h1 {
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
