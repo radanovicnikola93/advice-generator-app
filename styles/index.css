@@ -129,14 +129,15 @@ body {
 /* ADVICE--CONTAINER */
 .advice .advice--container {
     background-color: var(--grayish-blue);
-    height: 20rem;
+    height: 18rem;
     width: 40%;
     border-radius: 0.75rem;
+    padding: 2rem 0;
     
     /* flex */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -167,3 +168,8 @@ body {
 }
 
 /* ADVICE--DICE */
+.advice .advice--container .advice--dice {}
+
+.advice .advice--container .advice--dice img {
+    color: var(--neon-green);
+}
