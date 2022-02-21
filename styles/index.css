@@ -188,6 +188,7 @@ body {
 }
 
 .advice .advice--container .advice--dice {
+    display: block;
     display: flex;
     place-content: center;
     align-items: center;
@@ -202,9 +203,13 @@ body {
     cursor: pointer;
 }
 
+
 .advice .advice--container .advice--dice img:hover {
-    /* animation: rotate-dice 1s infinite; */
     animation: shake-dice 500ms ease-in-out;
+}
+
+.advice .advice--container .advice--dice img:active {
+    animation: rotate-dice 100ms ease-in-out;
 }
 
 @keyframes shake-dice {
@@ -225,14 +230,14 @@ body {
     }
 }
 
-/* @keyframes rotate-dice {
-    0% {
-        transform: rotate(0deg);
+@keyframes rotate-dice {
+    from {
+        transform: rotate(0);
     }
-    100% {
-        transform: rotate(360deg);
+    to {
+        transform: rotate(720deg);
     }
-} */
+}
 
 @media (max-width: 375px) {
     .advice .advice--container {
@@ -240,6 +245,6 @@ body {
     }
 
     .advice .advice--container .advice--quote blockquote p {
-    font-size: 1.75rem;
-}
+        font-size: 1.75rem;
+    }
 }
