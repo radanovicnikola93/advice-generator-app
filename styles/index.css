@@ -168,8 +168,16 @@ body {
 }
 
 /* ADVICE--DICE */
-.advice .advice--container .advice--dice {}
+.advice .advice--container .advice--dice {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+}
 
 .advice .advice--container .advice--dice img {
-    color: var(--neon-green);
+    
 }
