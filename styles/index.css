@@ -133,12 +133,27 @@ body {
     width: 40%;
     border-radius: 0.75rem;
     padding: 2rem 0;
+    position: relative;
     
     /* flex */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.advice .advice--container::after {
+    content: url('../images/icon-dice.svg');
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
 }
 
 /* ADVICE--ID */
@@ -165,19 +180,4 @@ body {
 
 .advice .advice--container .advice--pattern-divider img {
     color: var(--light-cyan);
-}
-
-/* ADVICE--DICE */
-.advice .advice--container .advice--dice {
-    display: flex;
-    place-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 4rem;
-    background-color: var(--neon-green);
-    border-radius: 50%;
-}
-
-.advice .advice--container .advice--dice img {
-    
 }
