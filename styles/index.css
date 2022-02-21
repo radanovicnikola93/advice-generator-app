@@ -19,7 +19,6 @@
   --quote-fs: 1.75rem;
 
   /* font family */
-  --ff-manrope: "Manrope", sans-serif;
   --fw-mandrope: 800;
 }
 
@@ -115,6 +114,8 @@ video {
 
 body {
     background-color: var(--dark-grayish-blue);
+    font-family: 'Manrope', sans-serif;
+    font-weight: var(--fw-mandrope);
 }
 
 .advice {
