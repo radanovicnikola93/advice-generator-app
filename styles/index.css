@@ -118,6 +118,7 @@ body {
     font-weight: var(--fw-mandrope);
 }
 
+/* ADVICE  */
 .advice {
     height: 100vh;
     display: flex;
@@ -125,6 +126,7 @@ body {
     align-items: center;
 }
 
+/* ADVICE--CONTAINER */
 .advice .advice--container {
     background-color: var(--grayish-blue);
     height: 20rem;
@@ -138,12 +140,14 @@ body {
     align-items: center;
 }
 
+/* ADVICE--ID */
 .advice .advice--container .advice--id h1 {
     color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
 
+/* ADVICE--QUOTE */
 .advice .advice--container .advice--quote {
     margin-inline: 2rem;
 }
@@ -154,9 +158,12 @@ body {
     text-align: center;
 }
 
+/* ADVICE--PATTERN-DIVIDER */
 .advice .advice--container .advice--pattern-divider {
 }
 
 .advice .advice--container .advice--pattern-divider img {
     color: var(--light-cyan);
 }
+
+/* ADVICE--DICE */
