@@ -120,7 +120,6 @@ body {
 
 .advice {
     height: 100vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,6 +128,7 @@ body {
 .advice .advice--container {
     background-color: var(--grayish-blue);
     height: 20rem;
+    width: 40%;
     border-radius: 0.75rem;
     
     /* flex */
@@ -142,4 +142,14 @@ body {
     color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.advice .advice--container .advice--quote {
+    margin-inline: 2rem;
+}
+
+.advice .advice--container .advice--quote blockquote p {
+    color: var(--light-cyan);
+    font-size: 1.75rem;
+    text-align: center;
 }
