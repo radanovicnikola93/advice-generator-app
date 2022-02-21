@@ -16,7 +16,7 @@
 
   /* TYPOGRAPHY */
   /* font size */
-  --quote-fs: 28px;
+  --quote-fs: 1.75rem;
 
   /* font family */
   --ff-manrope: "Manrope", sans-serif;
@@ -115,4 +115,12 @@ video {
 
 body {
     background-color: var(--dark-grayish-blue);
+}
+
+.advice {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
