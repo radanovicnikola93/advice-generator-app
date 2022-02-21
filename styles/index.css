@@ -113,7 +113,7 @@ video {
 }
 
 body {
-    background-color: var(--dark-grayish-blue);
+    background-color: var(--grayish-blue);
     font-family: 'Manrope', sans-serif;
     font-weight: var(--fw-mandrope);
 }
@@ -124,13 +124,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(216, 22%, 15%);
 }
 
 /* ADVICE--CONTAINER */
 .advice .advice--container {
-    background-color: var(--grayish-blue);
-    height: 18rem;
-    width: 40%;
+    background-color: var(--dark-grayish-blue);
+    height: 16rem;
+    width: 30em;
     border-radius: 0.75rem;
     padding: 2rem 0;
     position: relative;
@@ -138,7 +139,7 @@ body {
     /* flex */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -160,7 +161,7 @@ body {
 .advice .advice--container .advice--id h1 {
     color: var(--neon-green);
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
 }
 
 /* ADVICE--QUOTE */
@@ -176,8 +177,22 @@ body {
 
 /* ADVICE--PATTERN-DIVIDER */
 .advice .advice--container .advice--pattern-divider {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .advice .advice--container .advice--pattern-divider img {
-    color: var(--light-cyan);
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 375px) {
+    .advice .advice--container {
+        width: 20rem;
+    }
+
+    .advice .advice--container .advice--quote blockquote p {
+    font-size: 1.75rem;
+}
 }
