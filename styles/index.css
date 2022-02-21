@@ -124,3 +124,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.advice .advice--container {
+    background-color: var(--grayish-blue);
+    height: 20rem;
+    border-radius: 0.75rem;
+    
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
